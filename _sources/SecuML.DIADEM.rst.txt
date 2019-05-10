@@ -274,12 +274,12 @@ form the validation dataset.
 Validation Dataset
 ------------------
 
-``--validation-mode ValidationDataset --validation-dataset <validation_dataset>``
+``--validation-mode ValidationDatasets --validation-datasets <validation_datasets>``
 
 The whole dataset ``<dataset>`` constitutes the training data, and
-``<validation_dataset>`` constitutes the validation data.
+the list ``<validation_datasets>`` constitutes the validation data.
 
-In this validation mode, the validation dataset can be processed as a stream
+In this validation mode, the validation datasets can be processed as a stream
 by specifying ``--streaming``. In this case, the validation instances are not
 loaded into memory at once which allows to process bigger datasets.
 The batch size of the streaming process can be specified with the optional

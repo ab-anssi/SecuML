@@ -92,14 +92,14 @@ command line:
 .. code-block:: bash
 
     SecuML_DIADEM <project> <dataset> AlreadyTrained --model-exp-id <exp_id> \
-        --validation-mode ValidationDataset --validation-dataset <validation_dataset>
+        --validation-mode ValidationDatasets --validation-datasets <validation_datasets>
 
 In this case, there are two restrictions:
 
 * ``--model-exp-id`` must correspond to a
   :ref:`DIADEM <DIADEM>` or an :ref:`ILAB <ILAB>` experiment ;
-* ``ValidationDataset`` is the only :ref:`validation mode<DIADEM-validation-modes>`
-  available.
+* ``ValidationDatasets`` is the only
+  :ref:`validation mode<DIADEM-validation-modes>` available.
 
 
 .. _DIADEM_hyperparameters:

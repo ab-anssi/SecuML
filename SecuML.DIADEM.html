@@ -279,15 +279,15 @@ dataset into a training (90%) and a validation dataset (10%).</p>
 <p>DIADEM can apply a previously trained detection model with the following
 command line:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>SecuML_DIADEM &lt;project&gt; &lt;dataset&gt; AlreadyTrained --model-exp-id &lt;exp_id&gt; <span class="se">\</span>
-    --validation-mode ValidationDataset --validation-dataset &lt;validation_dataset&gt;
+    --validation-mode ValidationDatasets --validation-datasets &lt;validation_datasets&gt;
 </pre></div>
 </div>
 <p>In this case, there are two restrictions:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">--model-exp-id</span></code> must correspond to a
 <a class="reference internal" href="#diadem"><span class="std std-ref">DIADEM</span></a> or an <a class="reference internal" href="SecuML.ILAB.html#ilab"><span class="std std-ref">ILAB</span></a> experiment ;</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">ValidationDataset</span></code> is the only <a class="reference internal" href="#diadem-validation-modes"><span class="std std-ref">validation mode</span></a>
-available.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ValidationDatasets</span></code> is the only
+<a class="reference internal" href="#diadem-validation-modes"><span class="std std-ref">validation mode</span></a> available.</p></li>
 </ul>
 </div>
 </div>

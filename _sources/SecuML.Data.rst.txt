@@ -45,10 +45,10 @@ It has the following columns:
 
 Optional description file: ``<features_filename>_description.csv``
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-The header of a features csv file ``<filename>.csv`` may be human-readable
-names or integer ids.
+The header of a features csv file ``<features_filename>.csv`` may be
+human-readable names or integer ids.
 Names and more detailed descriptions can be associated to
-each feature in a file called ``<filename>_description.csv``.
+each feature in a file called ``<features_filename>_description.csv``.
 This description file is optional and its has the following columns:
 
 * **id**: feature id (the sames as in ``<features_filename>.csv``) ;
